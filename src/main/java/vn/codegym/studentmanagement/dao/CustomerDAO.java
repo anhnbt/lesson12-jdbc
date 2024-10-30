@@ -28,7 +28,6 @@ public class CustomerDAO {
         // Cac thanh phan trong JDBC
         Connection connection = null; // (1) Connection => Tao ra ket noi toi CSDL
         Statement stmt = null; // (2) Statement => Dung de thuc thi query sql
-        CallableStatement callableStatement;
         ResultSet rs = null; // (3) ResultSet => Tap hop du lieu
         try {
             connection = dbConnection.getConnection();
